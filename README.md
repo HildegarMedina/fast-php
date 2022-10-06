@@ -43,9 +43,9 @@ $app->get("/dashboard", function() use ($app) {
     $app->render("dashboard.php");
 });
 
-// Route /user/{id_user} POST method with path parameters
+// Route /user/{id_user}/books/{id_book} POST method with path parameters
 $app->post("/user/{id_user}/books/{id_book}", function($values) use ($app) {
-    echo "$id_user - $id_book";
+    echo "$values['id_user'] - $values['$id_book']";
 });
 
 // Route / PUT method
