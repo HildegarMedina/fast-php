@@ -1,0 +1,24 @@
+{
+    "name": "hildegar/fast-php",
+    "type": "library",
+    "description": "Make fast sites by php.",
+    "keywords": ["fast-php", "fast", "fastphp"],
+    "homepage": "https://hildegarmedina.com",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Hildegar Medina",
+            "email": "medinahildegar1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+    },
+    "autoload": {
+    },
+    "minimum-stability": "dev"
+}
